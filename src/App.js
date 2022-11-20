@@ -3,7 +3,6 @@ import './Style/App.scss';
 import Navbar from './component/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import { AboutUs, BulkPreview, BulkStep, Career,  Choice, ComingSoon, Contact, Dashboard, EditBulk, Error, FAQ, Layout, Modify, Pricing, PrivacyPolicy, SinglePreview, Team, Templates, Terms } from './pages';
-
 import Home from './pages/Home'
 
 function App() {
