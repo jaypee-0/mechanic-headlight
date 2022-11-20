@@ -25,7 +25,7 @@ function App() {
             <Route path='/terms' element={<Terms />} />
             <Route path='/single_preview' element={<SinglePreview />} />
             <Route path='/aboutUs' element={<AboutUs />} />
-            <Route path='/FAQ' element={<FAQ />} />
+            <Route path='/faq' element={<FAQ />} />
             <Route path='/bulk_preview' element={<BulkPreview />} />
             <Route path='/bulk_step' element={<BulkStep />} />
             <Route path='/edit_bulk' element={<EditBulk />} />
