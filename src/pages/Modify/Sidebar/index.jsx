@@ -1,7 +1,7 @@
 import "./sidebar.style.scss";
-import Select from "../../../Component/Utils/Select";
+import Select from "../../../component/Utils/Select";
 import { useState } from "react";
-import ColorPick from "../../../Component/Utils/ColorPick";
+import ColorPick from "../../../component/Utils/ColorPick";
 // component
 
 const Sidebar = () => {
