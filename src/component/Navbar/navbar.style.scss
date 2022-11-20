@@ -85,6 +85,9 @@ p {
       text-decoration: none;
       color: #222;
       text-transform: capitalize;
+      &:hover{
+        color:#19a68e;
+      }
     }
   }
 }
