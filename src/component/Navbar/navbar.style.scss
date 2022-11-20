@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@600&family=Work+Sans:wght@400;500&display=swap");
 
+#Nav{
 h2,
 h3,
 p {
@@ -14,8 +15,8 @@ p {
   z-index: 999;
 }
 .container {
-  width: 90%;
   margin: 0 auto;
+  width: 90%;
 }
 .nav-header-container {
   box-shadow: 0px 0.5px 5px rgba(34, 34, 34, 0.25);
@@ -166,4 +167,5 @@ p {
     display: block;
     padding: 0;
   }
+}
 }
