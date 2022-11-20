@@ -41,6 +41,7 @@ function Navbar() {
   ];
 
   return (
+    <div id="Nav"> 
     <div className="navbar">
       <div className="nav-header-container">
         <div className="nav-header container">
@@ -75,6 +76,7 @@ function Navbar() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

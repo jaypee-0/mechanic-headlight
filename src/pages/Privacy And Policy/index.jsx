@@ -6,7 +6,7 @@ import { Outlet } from "react-router-dom"
 
 const PrivacyPolicy = () => {
   return (
-    <div className="main-page">
+    <div id="privacy" className="main-page">
         <section>
        <h2>Privacy Policy</h2>
         <p>Shall apply from November 23, 2022.</p>   
