@@ -4,7 +4,7 @@ import React from 'react'
 import { Outlet } from "react-router-dom"
 
 
-export const PrivacyPolicy = () => {
+const PrivacyPolicy = () => {
   return (
     <div className="main-page">
         <section>
@@ -94,3 +94,5 @@ identify you. Personally identifiable information may include, but is not limite
     </div>
   )
 }
+
+export default PrivacyPolicy
