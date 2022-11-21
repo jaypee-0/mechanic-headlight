@@ -5,6 +5,8 @@ import { Route, Routes } from 'react-router-dom';
 import { AboutUs, BulkPreview, BulkStep, Career,  Choice, ComingSoon, Contact, Dashboard, EditBulk, Error, FAQ, Layout, Modify, Pricing, PrivacyPolicy, SinglePreview, Team, Templates, Terms } from './pages';
 import Home from './pages/Home'
 import Checkout from "./pages/Checkout";
+import Signup from "./component/Signup-Login/assets/Sginup";
+import Login from "./component/Signup-Login/assets/Login";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
             <Route path='/edit_bulk' element={<EditBulk />} />
             <Route path='/pricing' element={<Pricing />} />
             <Route path="/payment" element={<Checkout />} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/login" element={<Login />} />
 
             <Route path='/contact-us' element={<Contact />} />
             <Route path='/privacy' element={<PrivacyPolicy />} />
