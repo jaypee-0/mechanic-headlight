@@ -4,9 +4,11 @@
 #edit {
   
 body {
+  text-align:'center';
   h1 {
     font-size: 30px;
     font-weight: 500;
+    
   }
 }
 
@@ -17,20 +19,20 @@ body {
   border-radius: 10px;
   text-align: left;
   background: #fafafb;
-  margin-bottom: 50px !important;
+  margin-bottom: 50px!important;
 
   .logo input {
-    padding: 5px !important;
-    border-radius: 5px !important;
+    padding: 5px!important;
+    border-radius: 5px!important;
     border: 1px solid #545454;
-    width: 26% !important;
-    margin-top: 15px !important;
-    margin-bottom: 0px !important;
+    width: 26%!important;
+    margin-top: 15px!important;
+    margin-bottom: 0px!important;
   }
 
   .logo h6 {
-    margin-bottom: 30px;
-    margin-top: 5px;
+    margin-bottom: 30px!important;;
+    margin-top: 5px!important;;
   }
   label {
     font-weight: bolder;
@@ -38,33 +40,33 @@ body {
 
   input,
   select {
-    padding: 18px;
-    border-radius: 10px;
+    padding: 18px!important;
+    border-radius: 10px!important;;
     border: 1px solid grey;
-    width: 95%;
-    margin-top: 15px !important;
-    margin-bottom: 30px !important;
+    width: 95%!important;;
+    margin-top: 15px!important;
+    margin-bottom: 30px!important;
     background: #fff;
   }
 
   select {
-    width: 100%;
+    width: 100%!important;;
   }
 
   button {
-    background: $primaryGreenColor;
-    color: #fff;
+    background: $primaryColor;
+    color: #fff!important;;
     border: none;
 
     width: 130px;
     height: 43px;
-    text-align: center;
+    text-align: center!important;;
     margin: 0px;
 
     &:hover {
-      color: $primaryGreenColor;
+      color: $primaryColor;
       background: #fff;
-      border: 1px solid $primaryGreenColor;
+      border: 1px solid $primaryColor;
       transition: 500ms ease-in-out;
     }
   }
