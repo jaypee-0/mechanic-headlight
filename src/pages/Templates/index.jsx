@@ -151,7 +151,7 @@ export default function Template() {
             </button>
           </div>
           <div className="template-card__icon">
-            <a href="/">
+            <a href="#">
               <img src={addicon} alt="card" />
             </a>
           </div>
@@ -165,7 +165,7 @@ export default function Template() {
             return (
               <div key={item.id} className="template-card">
                 <div className="template-card__img">
-                  <a href="/">
+                  <a href="#">
                     <img src={item.url} alt="card" />
                   </a>
                 </div>
