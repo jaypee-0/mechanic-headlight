@@ -16,7 +16,6 @@ function App() {
         <Routes>
           <Route path='/' element={<Layout />} >
             <Route index element={<Home />} />
-            <Route path='/comingsoon' element={<ComingSoon />} />
             <Route path='/dashboard' element={<Dashboard />} />
             <Route path='/templates' element={<Templates />} />
             <Route path='/career' element={<Career />} />
@@ -38,6 +37,8 @@ function App() {
             <Route path='/contact-us' element={<Contact />} />
             <Route path='/privacy' element={<PrivacyPolicy />} />
           </Route>            
+          
+            <Route path='/comingsoon' element={<ComingSoon />} />
             <Route path='*' element={<Error />} />
         </Routes>
       </div>
