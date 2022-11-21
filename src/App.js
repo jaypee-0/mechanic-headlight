@@ -4,6 +4,7 @@ import Navbar from './component/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import { AboutUs, BulkPreview, BulkStep, Career,  Choice, ComingSoon, Contact, Dashboard, EditBulk, Error, FAQ, Layout, Modify, Pricing, PrivacyPolicy, SinglePreview, Team, Templates, Terms } from './pages';
 import Home from './pages/Home'
+import Checkout from "./pages/Checkout";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path='/bulk_step' element={<BulkStep />} />
             <Route path='/edit_bulk' element={<EditBulk />} />
             <Route path='/pricing' element={<Pricing />} />
+            <Route path="/payment" element={<Checkout />} />
 
             <Route path='/contact-us' element={<Contact />} />
             <Route path='/privacy' element={<PrivacyPolicy />} />
