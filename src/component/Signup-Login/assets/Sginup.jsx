@@ -52,11 +52,11 @@ const Signup = () => {
                     <span id="startGenerating">Start generating certificates by creating a Certawi account</span>
                     <div id="signupG">
                         <img alt="" src={googleSVG} id="img_id" />
-                        <a href="#">Signup using Google</a>
+                        <a href="/">Signup using Google</a>
                     </div>
                     <div id="signupA">
                         <img alt="" src={appleSVG} id="img_id" />
-                        <a href="#">Signup using Apple</a>
+                        <a href="/">Signup using Apple</a>
                     </div>
                     <div id="hrLine"><span id="or">or</span></div>
                     <form>

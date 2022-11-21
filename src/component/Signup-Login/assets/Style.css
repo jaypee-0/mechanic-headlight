@@ -248,7 +248,7 @@ a {
 .forgotPwd {
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   font-family: "Sora";
   font-style: normal;
   font-weight: 400;
@@ -331,4 +331,4 @@ a {
   .logo-div {
     margin: 29px 20px 58px 24px;
   }
-}
+}/*# sourceMappingURL=Style.css.map */

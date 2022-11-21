@@ -1,7 +1,10 @@
+#bulkPreview {
+  text-align: center;
+}
 #bulkPreview button {
   margin: 35px 20px 45px 20px;
   border-radius: 5px;
-  color: #19a6be;
+  color: #fff;
   width: 140px;
   height: 40px;
   font-size: 12px;
