@@ -1,6 +1,6 @@
 import React from 'react';
 import './Comingsoon.css'
-import arrowRight from './images/arrowRight.png'
+import arrowRight from './images/arrowright.png'
 import github from './images/github.png'
 import instagra from './images/instagra.png'
 import linkedin from './images/linkedin.png'
