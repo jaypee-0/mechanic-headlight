@@ -7,12 +7,9 @@ import three from '../../../assets/images/step-three.png'
 
 export default function BulkStep () {
     return (
-
-        <div id="bulkStep">
         <div className="bulk">
           <p className="heading sora">Create bulk Certificates in <span className="emphasized">3 easy steps</span></p>
-          <div className="center">
-          <div className="flex space  items-center">
+          <div className="flex space center items-center wrap">
             <img src={example} alt="bulk-example" style={{cursor: 'pointer'}} className="example"/>
             <div className="text-left work-sans">
                 <div className="process">
@@ -30,8 +27,6 @@ export default function BulkStep () {
             </div>
           </div>
           <button className="bulk-button work-sans">Create Bulk Certificates</button>
-          </div>
-        </div>
         </div>
     )
 }
